@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1d59d9;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 20px;
+}
+
+
+.container {
+    background-color: #241b7a6a;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(34, 2, 85, 0.572),0 6px 6px rgba(60, 7, 126, 0.741);
+    padding: 50px 20px;
+    text-align: center;
+    max-width: 100%;
+    width: 800px;
+}
+
+h3{
+    margin: 0;
+    opacity: 0.5;
+    letter-spacing: 2px;
+}
+
+.joke{
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin: 50px auto;
+    max-width: 600px;
+
+}
+.btn {
+    background-color: #3f20da;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(34, 2, 85, 0.572),0 6px 6px rgba(60, 7, 126, 0.741);
+    padding: 10px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:active{
+    transform: scale(0.98);
+}
+
+.btn:focus{
+    outline: 0;
+}
