@@ -118,3 +118,22 @@ nav ul li + li + li {
     color: #333;
     line-height: 1.5;
 }
+
+.boton{
+    padding: 100px;
+    
+}
+
+.boton a button{
+    padding: 10px;
+    background-color: lightblue;
+    border-radius: 5px;
+    border: 1px solid rgb(126, 126, 200);
+    cursor: pointer;
+    translate: trasition 0.3s ease-in;
+}
+
+.boton a button:hover{
+    background-color: deepskyblue;
+    transform: scale(1.2);
+}
